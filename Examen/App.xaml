@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Examen"
+             xmlns:viewModal="clr-namespace:Examen.MVVM.ViewModel"
+             xmlns:view="clr-namespace:Examen.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -9,6 +11,19 @@
                 <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme/TextboxTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModal:ViewModel}">
+                <view:View/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModal:DiscoveryViewModel}">
+                <view:discoveryView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModal:OrgModel}">
+                <view:Orginfo/>
+            </DataTemplate>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

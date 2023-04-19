@@ -41,3 +41,8 @@ Z:\Projects\VS\Examen\Examen\bin\Debug\net6.0-windows\runtimes\win7-x86\native\l
 Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\View.g.cs
 Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\View.baml
 Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\Examen.csproj.CopyComplete
+Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\discoveryView.g.cs
+Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\discoveryView.baml
+Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\Orginfo.g.cs
+Z:\Projects\VS\Examen\Examen\obj\Debug\net6.0-windows\MVVM\View\Orginfo.baml
